@@ -2,7 +2,7 @@ import cmath
 
 def quad_roots(a,b=0,c=0):
 
-	'''returns roots of a quadratic function given inputs a,b,c for ax^2+bx+c
+	'''returns roots of a quadratic function given inputs a,b,c for ax^2+bx+c.
 
 	INPUTS
 	==========
