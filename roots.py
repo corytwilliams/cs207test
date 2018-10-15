@@ -5,7 +5,7 @@ def quad_roots(a,b=0,c=0):
 	'''returns roots of a quadratic function given inputs a,b,c for ax^2+bx+c
 
 	INPUTS
-	=========
+	==========
 	a:	the coefficient for x^2
 		type: int or float
 	b:	the coefficient for x
@@ -14,11 +14,11 @@ def quad_roots(a,b=0,c=0):
 		type: int or float
 
 	RETURNS
-	=========
+	==========
 	roots [(r1,r1c),(r2,r2c)], where r1c and r2c are the complex numbers for the roots.
 
 	NOTES
-	=========
+	==========
 	Pre:
 		a,b,c are all int or float types. a cannot be zero.
 	Post:
@@ -27,7 +27,7 @@ def quad_roots(a,b=0,c=0):
 
 
 	EXAMPLES
-	=========
+	==========
 	>>>quad_roots(1,2,1)
 	[(-1,0),(-1,0)]
 '''
