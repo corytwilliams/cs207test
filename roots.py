@@ -66,9 +66,9 @@ def linear_roots(a,b=0):
 
 	EXAMPLES
 	=========
-	>>>linear_roots(1,2)
+	>>> linear_roots(1,2)
 	-2
-	>>>linear_roots(5,-15)
+	>>> linear_roots(5,-15)
 	3
 	
 	'''
