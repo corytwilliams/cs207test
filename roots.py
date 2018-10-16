@@ -29,8 +29,8 @@ def quad_roots(a,b=0,c=0):
 	EXAMPLES
 	==========
 	>>> quad_roots(1.0, 1.0, -12.0)
-    ((3+0j), (-4+0j))
-'''
+	((3+0j), (-4+0j))
+	'''
 	if a==0:
 		raise ValueError("The quadratic coefficient cannot equal zero")
 	else:
