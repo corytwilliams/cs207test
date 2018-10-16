@@ -29,7 +29,7 @@ def quad_roots(a,b=0,c=0):
 	EXAMPLES
 	==========
 	>>>quad_roots(1,2,1)
-	[(-1,0),(-1,0)]
+	[(-1+0j),(-1+0j)]
 '''
 	if a==0:
 		raise ValueError("The quadratic coefficient cannot equal zero")
@@ -76,4 +76,3 @@ def linear_roots(a,b=0):
 		raise ValueError("The linear coefficient cannot equal zero")
 	else:
 		return -b/a
-
